@@ -59,34 +59,3 @@
 		"foto": "https://media.biobiochile.cl/wp-content/uploads/2019/05/movimiento-2.jpg"
 	}
 ]
-  "nombre": "De Kiruza",
-  "descripcion": "De Kiruza fue uno de los grupos pioneros en hacer escuchar ritmos afroamericanos en Chile",
-  "periodo": "Los 90's",
-  "miembros": ["Pedro Foncea,Jorge del Campo, Roberto Trujillo, Andrés Pérez, Cote Foncea, Felo Foncea, Sebastián Almarza"],
-  "exmiembros": ["Mario Rojas, José Luis Araya, Gustavo Schmidt, Andrés Cortés"],
-  "foto": "https://www.musicapopular.cl/wp-content/uploads/2015/07/dekiruza-1.jpg"
- },
- {
-  "nombre": "Panteras negras",
-  "descripcion":"",
-  "miembros": "Eduardo Meneses LB-1, Chino Makina, Dj Rata, Malcolm Meneses",
-  "exmiembros": ["Juez, Dj Kalkin, Dj Gudy, Keko 'Duro' Fernández (teclado), Cristián 'Pitta' Sánchez,Marcel, 'Enojao' Peiret (bongó), Rodrigo 'Gran Oculto' Cabieres (teclado adicional)"],
-  "foto": "https://lacarnemagazine.com/wp-content/uploads/2021/11/panteras-negras-web-1.jpg",
- },
- {
-  "nombre": "ChysteMc",
-  "descripcion": "ChysteMC es un rapero chileno muy talentoso. Su nombre real es Christopher Romero Muñoz. Se hizo famoso en la escena del rap en Chile alrededor de los años 2000. ChysteMC es conocido por sus canciones con letras profundas que tratan sobre temas personales, sociales y políticos. Ha lanzado varios álbumes por su cuenta y ha colaborado con otros artistas importantes. Su música ha sido muy popular y ha dejado una huella en el rap chileno.",
-  "periodo": "2010",
-  "discos": ["Techymuv(2016), La Pronoia del Sun Joke Fú, La paranoia del psycho joke fú(2010), Bombarrio (2021)"],
-  "foto": "https://1.bp.blogspot.com/-ijirjpwDeoc/VrX8AhXwGoI/AAAAAAAACco/Ki69PavsP4A/s1600/FB_IMG_1454766319953.jpg"
- },
- {
-  "nombre": "Movimiento original",
-  "descripcion": "Movimiento Original es un grupo de música chileno, se formó en el año 2008 y se ha destacado por su estilo musical que fusiona el rap, reggae y otros géneros urbanos.\n\nMovimiento Original se caracteriza por sus letras que abordan temas sociales, políticos y personales, transmitiendo mensajes de conciencia y reflexión.",
-  "periodo": "2010",
-  "miembros": ["Aerstame,Stailok, Dj Acres"],
-  "exmiembros": ["Mc Piri, Semillah"],
-  "discos": ["Soldados del Ghetto (2008), Edición Especial (2010), Teorema (2012), Gran Rah(2013), Mov Rap and Reggae (2017)"],
-  "foto": "https://media.biobiochile.cl/wp-content/uploads/2019/05/movimiento-2.jpg"
- }
-]
