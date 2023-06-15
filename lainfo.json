@@ -7,7 +7,8 @@
 		"discos": ["Ser hümano!! (1997 - EMI, reeditado el 2013), Decisión (1999 - EMI), Retorno de misericordia (2001 - EMI), Patrón del vicio (2003 - EMI), Impacto certero (2004 - EMI), Música de vida (2010)"],
 		"demo": ["Homosapiens (1992), Arma calibrada (1993) Música de vida (2010)"],
 		"otros generos": ["Dancehall, G-Funk, Raggamuffin, R&B"],
-		"foto": "img1.jpg"
+		"foto": "img1.jpg",
+		"AltText": "grupo tiro de gracia, 1997"
 	},
 	{
 		"nombre": "La Pozze Latina",
