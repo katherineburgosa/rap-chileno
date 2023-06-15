@@ -24,7 +24,8 @@
   "periodo": "Los 90's",
   "miembros": ["Seo2, Ana Tijoux, Sonido Ácido, Dj Nakeye"],
   "discos": ["1998 - Vida salvaje (Independiente), 1999 - Aerolíneas Makiza (Sony Music), 2004 - Vida salvaje (Aguasonica Producciones), 2005 - Casino Royale (La Oreja)"],
-  "otros generos": ["Political rap, Trip hop, Conscious rap, R&B"]
+  "otros generos": ["Political rap, Trip hop, Conscious rap, R&B"],
+  "foto": "makiza.jpg"
  },
  {
   "nombre": "De Kiruza",
@@ -38,12 +39,14 @@
   "descripcion":"",
   "miembros": "Eduardo Meneses LB-1, Chino Makina, Dj Rata, Malcolm Meneses",
   "exmiembros": ["Juez, Dj Kalkin, Dj Gudy, Keko 'Duro' Fernández (teclado), Cristián 'Pitta' Sánchez,Marcel, 'Enojao' Peiret (bongó), Rodrigo 'Gran Oculto' Cabieres (teclado adicional)"]
+  "foto": "https://lacarnemagazine.com/wp-content/uploads/2021/11/panteras-negras-web-1.jpg",
  },
  {
   "nombre": "ChysteMc",
   "descripcion": "ChysteMC es un rapero chileno muy talentoso. Su nombre real es Christopher Romero Muñoz. Se hizo famoso en la escena del rap en Chile alrededor de los años 2000. ChysteMC es conocido por sus canciones con letras profundas que tratan sobre temas personales, sociales y políticos. Ha lanzado varios álbumes por su cuenta y ha colaborado con otros artistas importantes. Su música ha sido muy popular y ha dejado una huella en el rap chileno.",
   "periodo": "2010",
-  "discos": ["Techymuv(2016), La Pronoia del Sun Joke Fú, La paranoia del psycho joke fú(2010), Bombarrio (2021)"]
+  "discos": ["Techymuv(2016), La Pronoia del Sun Joke Fú, La paranoia del psycho joke fú(2010), Bombarrio (2021)"],
+  "foto": "https://1.bp.blogspot.com/-ijirjpwDeoc/VrX8AhXwGoI/AAAAAAAACco/Ki69PavsP4A/s1600/FB_IMG_1454766319953.jpg"
  },
  {
   "nombre": "Movimiento original",
