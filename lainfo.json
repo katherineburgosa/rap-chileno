@@ -16,7 +16,8 @@
   "periodo": "Los 90's",
   "miembros": ["Jimmy Fernández, Chato, Solo Di Medina, DJ Raff"],
   "discos": "Pozzeídos por la ilusión (1993)\nUna nueva religión (1996)\nDesde el mundo de los espejos (1999)",
-  "otros generos":["Rock, Underground hip hop, Funk"]
+  "otros generos":["Rock, Underground hip hop, Funk"],
+  "foto":""
  },
  {
   "nombre": "Makiza",
@@ -32,13 +33,14 @@
   "descripcion": "De Kiruza fue uno de los grupos pioneros en hacer escuchar ritmos afroamericanos en Chile",
   "periodo": "Los 90's",
   "miembros": ["Pedro Foncea,Jorge del Campo, Roberto Trujillo, Andrés Pérez, Cote Foncea, Felo Foncea, Sebastián Almarza"],
-  "exmiembros": ["Mario Rojas, José Luis Araya, Gustavo Schmidt, Andrés Cortés"]
+  "exmiembros": ["Mario Rojas, José Luis Araya, Gustavo Schmidt, Andrés Cortés"],
+  "foto": "https://www.musicapopular.cl/wp-content/uploads/2015/07/dekiruza-1.jpg"
  },
  {
   "nombre": "Panteras negras",
   "descripcion":"",
   "miembros": "Eduardo Meneses LB-1, Chino Makina, Dj Rata, Malcolm Meneses",
-  "exmiembros": ["Juez, Dj Kalkin, Dj Gudy, Keko 'Duro' Fernández (teclado), Cristián 'Pitta' Sánchez,Marcel, 'Enojao' Peiret (bongó), Rodrigo 'Gran Oculto' Cabieres (teclado adicional)"]
+  "exmiembros": ["Juez, Dj Kalkin, Dj Gudy, Keko 'Duro' Fernández (teclado), Cristián 'Pitta' Sánchez,Marcel, 'Enojao' Peiret (bongó), Rodrigo 'Gran Oculto' Cabieres (teclado adicional)"],
   "foto": "https://lacarnemagazine.com/wp-content/uploads/2021/11/panteras-negras-web-1.jpg",
  },
  {
@@ -54,6 +56,7 @@
   "periodo": "2010",
   "miembros": ["Aerstame,Stailok, Dj Acres"],
   "exmiembros": ["Mc Piri, Semillah"],
-  "discos": ["Soldados del Ghetto (2008), Edición Especial (2010), Teorema (2012), Gran Rah(2013), Mov Rap and Reggae (2017)"]
+  "discos": ["Soldados del Ghetto (2008), Edición Especial (2010), Teorema (2012), Gran Rah(2013), Mov Rap and Reggae (2017)"],
+  "foto": "https://media.biobiochile.cl/wp-content/uploads/2019/05/movimiento-2.jpg"
  }
 ]
