@@ -1,34 +1,64 @@
-[
- {
-  "nombre": " Tiro de Gracia",
-  "descripcion": "Grupo musical que alcanzó su éxito en el año 1997 con su lanzamiento del álbum, en sus inicios los temas que tocaban eran de carácter político.En 1996, Tiro de Gracia sorprendió con su demo 'El Juego Verdadero' en un programa piloto de hip hop dirigido por Juan Sebastián Domínguez y la productora Cubo Negro.",
-  "periodo": "Los 90's",
-  "miembros": "Juan Sativo",
-  "exmiembros": "Zaturno, Lenwa Dura, Explícito, Dj Raff, Camilo Cintolesi, Adonai, DJ Mataskaupas, Sebalanzar, DJ Navarro",
-  "discos": ["Ser hümano!! (1997 - EMI, reeditado el 2013), Decisión (1999 - EMI), Retorno de misericordia (2001 - EMI), Patrón del vicio (2003 - EMI), Impacto certero (2004 - EMI), Música de vida (2010)"],
-  "demo": ["Homosapiens (1992), Arma calibrada (1993) Música de vida (2010)"],
-  "otros generos": ["Dancehall, G-Funk, Raggamuffin, R&B"],
-  "foto":"img1.jpg"
- },
- {
-  "nombre": "La Pozze Latina",
-  "descripcion": "Se les considera como los pioneros del hip hop en Chile junto a De Kiruza y Panteras Negras.",
-  "periodo": "Los 90's",
-  "miembros": ["Jimmy Fernández, Chato, Solo Di Medina, DJ Raff"],
-  "discos": "Pozzeídos por la ilusión (1993)\nUna nueva religión (1996)\nDesde el mundo de los espejos (1999)",
-  "otros generos":["Rock, Underground hip hop, Funk"],
-  "foto":""
- },
- {
-  "nombre": "Makiza",
-  "descripcion": "Makiza, un grupo de rap chileno formado en 1997, se caracterizó por su estilo y letras que abordaban la crítica política y social, especialmente dirigida hacia la dictadura militar chilena. Su enfoque valiente y comprometido les permitió destacarse como uno de los grupos más exitosos en la escena musical nacional.",
-  "periodo": "Los 90's",
-  "miembros": ["Seo2, Ana Tijoux, Sonido Ácido, Dj Nakeye"],
-  "discos": ["1998 - Vida salvaje (Independiente), 1999 - Aerolíneas Makiza (Sony Music), 2004 - Vida salvaje (Aguasonica Producciones), 2005 - Casino Royale (La Oreja)"],
-  "otros generos": ["Political rap, Trip hop, Conscious rap, R&B"],
-  "foto": "makiza.jpg"
- },
- {
+[{
+		"nombre": " Tiro de Gracia",
+		"descripcion": "Grupo musical que alcanzó su éxito en el año 1997 con su lanzamiento del álbum, en sus inicios los temas que tocaban eran de carácter político.En 1996, Tiro de Gracia sorprendió con su demo 'El Juego Verdadero' en un programa piloto de hip hop dirigido por Juan Sebastián Domínguez y la productora Cubo Negro.",
+		"periodo": "Los 90's",
+		"miembros": "Juan Sativo",
+		"exmiembros": "Zaturno, Lenwa Dura, Explícito, Dj Raff, Camilo Cintolesi, Adonai, DJ Mataskaupas, Sebalanzar, DJ Navarro",
+		"discos": ["Ser hümano!! (1997 - EMI, reeditado el 2013), Decisión (1999 - EMI), Retorno de misericordia (2001 - EMI), Patrón del vicio (2003 - EMI), Impacto certero (2004 - EMI), Música de vida (2010)"],
+		"demo": ["Homosapiens (1992), Arma calibrada (1993) Música de vida (2010)"],
+		"otros generos": ["Dancehall, G-Funk, Raggamuffin, R&B"],
+		"foto": "img1.jpg"
+	},
+	{
+		"nombre": "La Pozze Latina",
+		"descripcion": "Se les considera como los pioneros del hip hop en Chile junto a De Kiruza y Panteras Negras.",
+		"periodo": "Los 90's",
+		"miembros": ["Jimmy Fernández, Chato, Solo Di Medina, DJ Raff"],
+		"discos": "Pozzeídos por la ilusión (1993)\nUna nueva religión (1996)\nDesde el mundo de los espejos (1999)",
+		"otros generos": ["Rock, Underground hip hop, Funk"],
+		"foto": ""
+	},
+	{
+		"nombre": "Makiza",
+		"descripcion": "Makiza, un grupo de rap chileno formado en 1997, se caracterizó por su estilo y letras que abordaban la crítica política y social, especialmente dirigida hacia la dictadura militar chilena. Su enfoque valiente y comprometido les permitió destacarse como uno de los grupos más exitosos en la escena musical nacional.",
+		"periodo": "Los 90's",
+		"miembros": ["Seo2, Ana Tijoux, Sonido Ácido, Dj Nakeye"],
+		"discos": ["1998 - Vida salvaje (Independiente), 1999 - Aerolíneas Makiza (Sony Music), 2004 - Vida salvaje (Aguasonica Producciones), 2005 - Casino Royale (La Oreja)"],
+		"otros generos": ["Political rap, Trip hop, Conscious rap, R&B"],
+		"foto": "makiza.jpg"
+	},
+	{
+		"nombre": "De Kiruza",
+		"descripcion": "De Kiruza fue uno de los grupos pioneros en hacer escuchar ritmos afroamericanos en Chile",
+		"periodo": "Los 90's",
+		"miembros": ["Pedro Foncea,Jorge del Campo, Roberto Trujillo, Andrés Pérez, Cote Foncea, Felo Foncea, Sebastián Almarza"],
+		"exmiembros": ["Mario Rojas, José Luis Araya, Gustavo Schmidt, Andrés Cortés"],
+		"foto": "https://www.musicapopular.cl/wp-content/uploads/2015/07/dekiruza-1.jpg"
+	},
+	{
+		"nombre": "Panteras negras",
+		"descripcion": "",
+		"miembros": "Eduardo Meneses LB-1, Chino Makina, Dj Rata, Malcolm Meneses",
+		"exmiembros": ["Juez, Dj Kalkin, Dj Gudy, Keko 'Duro' Fernández (teclado), Cristián 'Pitta' Sánchez,Marcel, 'Enojao' Peiret (bongó), Rodrigo 'Gran Oculto' Cabieres (teclado adicional)"],
+		"foto": "https://lacarnemagazine.com/wp-content/uploads/2021/11/panteras-negras-web-1.jpg"
+	},
+	{
+		"nombre": "ChysteMc",
+		"descripcion": "ChysteMC es un rapero chileno muy talentoso. Su nombre real es Christopher Romero Muñoz. Se hizo famoso en la escena del rap en Chile alrededor de los años 2000. ChysteMC es conocido por sus canciones con letras profundas que tratan sobre temas personales, sociales y políticos. Ha lanzado varios álbumes por su cuenta y ha colaborado con otros artistas importantes. Su música ha sido muy popular y ha dejado una huella en el rap chileno.",
+		"periodo": "2010",
+		"discos": ["Techymuv(2016), La Pronoia del Sun Joke Fú, La paranoia del psycho joke fú(2010), Bombarrio (2021)"],
+		"foto": "https://1.bp.blogspot.com/-ijirjpwDeoc/VrX8AhXwGoI/AAAAAAAACco/Ki69PavsP4A/s1600/FB_IMG_1454766319953.jpg"
+	},
+	{
+		"nombre": "Movimiento original",
+		"descripcion": "Movimiento Original es un grupo de música chileno, se formó en el año 2008 y se ha destacado por su estilo musical que fusiona el rap, reggae y otros géneros urbanos.\n\nMovimiento Original se caracteriza por sus letras que abordan temas sociales, políticos y personales, transmitiendo mensajes de conciencia y reflexión.",
+		"periodo": "2010",
+		"miembros": ["Aerstame,Stailok, Dj Acres"],
+		"exmiembros": ["Mc Piri, Semillah"],
+		"discos": ["Soldados del Ghetto (2008), Edición Especial (2010), Teorema (2012), Gran Rah(2013), Mov Rap and Reggae (2017)"],
+		"foto": "https://media.biobiochile.cl/wp-content/uploads/2019/05/movimiento-2.jpg"
+	}
+]
   "nombre": "De Kiruza",
   "descripcion": "De Kiruza fue uno de los grupos pioneros en hacer escuchar ritmos afroamericanos en Chile",
   "periodo": "Los 90's",
