@@ -26,7 +26,8 @@
 		"miembros": ["Seo2, Ana Tijoux, Sonido Ácido, Dj Nakeye"],
 		"discos": ["1998 - Vida salvaje (Independiente), 1999 - Aerolíneas Makiza (Sony Music), 2004 - Vida salvaje (Aguasonica Producciones), 2005 - Casino Royale (La Oreja)"],
 		"otros generos": ["Political rap, Trip hop, Conscious rap, R&B"],
-		"foto": "makiza.jpg"
+		"foto": "makiza.jpg",
+		"album":  ["diskma.jpg, diskma.jpg, diskma.jpg, diskma.jpg"]
 	},
 	{
 		"nombre": "De Kiruza",
