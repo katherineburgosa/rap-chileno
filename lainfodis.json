@@ -1,0 +1,26 @@
+[{
+		"nombre": "Vida salvaje",
+		"descripcion": "(Independiente)",
+		"año": "1998",
+		"foto": "diskma0.jpg"
+		
+	},
+	{
+		"nombre": " Aerolíneas Makiza",
+		"descripcion": "(Sony Music)",
+		"año": "2004",
+		"foto": "diskma.jpg"
+	},
+	{
+		"nombre": " Vida salvaje",
+		"descripcion": "(Aguasonica Producciones)",
+		"año": "2005",
+		"foto": "diskma2.jpg"
+	},
+	{
+		"nombre": " Casino Royale",
+		"descripcion": "(La Oreja)",
+		"año": "2005",
+		"foto": "diskma3.jpg"
+	}
+]
