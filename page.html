@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+
+
+
+    <style>
+
+
+
+:root {
+    
+    --nav-width: 65px;
+    --first-color: #ff0000;
+    --first-color-light: #ffffff;
+    --white-color: #F7F6FB;
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: #ff0000;
+   
+}
+.header {
+    width: 100%;
+   
+    position: fixed;
+    top: 0px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 ;
+    background-color: #000000;
+    z-index: 120;
+    transition: .5s;
+    background-color: transparent;
+    z-index: 120;
+}
+.header_toggle {
+    margin-left: 10px;
+    margin-top: 35px;
+    color: var(--first-color);
+    font-size: 2rem;
+    cursor: pointer
+}
+
+.l-navbar {
+    position: fixed;
+    top: 0;
+    left: -30%;
+    width: var(--nav-width);
+    height: 100vh;
+    background-color: var(--first-color);
+    padding: .5rem 1rem 0 0;
+   transition: ease-in-out;
+    z-index: var(--z-fixed);
+}
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: transparent;
+    
+}
+.nav_logo,
+.nav_link {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: 1rem;
+    padding: .5rem 0 .5rem 1.5rem
+}
+
+
+.nav_logo-name {
+    color: var(--white-color);
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.nav_link {
+    position: relative;
+    color: var(--first-color-light);
+    margin-bottom: 1.5rem;
+    transition: .3s
+}
+.nav_link:hover {
+    color: var(--white-color)
+}
+.nav_icon {
+    width: 25px;
+}
+.nav_iconlog{
+    width: 40px;
+    margin-bottom: 30px;
+}
+.show {
+    left: 0
+}
+.body-pd {
+    padding-left: calc(var(--nav-width) + 1rem);
+}
+.active {
+    color: var(--white-color)
+}
+.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 32px;
+    background-color: var(--white-color)
+}
+.height-100 {
+    height: 100vh;
+}
+@media screen and (min-width: 768px) {
+    body {
+        margin: calc(var(--header-height) + 1rem) 0 0 0;
+       
+    }
+    .header {
+        height: calc(var(--header-height) + 1rem);
+        padding: 0 2rem 0 calc(var(--nav-width) + 2rem);
+        margin-left: 10px;
+    }
+    .header_img {
+        width: 40px;
+        height: 40px
+    }
+    .header_img img {
+        width: 45px
+    }
+    .l-navbar {
+        left: 0;
+        padding: 1rem 1rem 0 0
+    }
+    .show {
+        width: calc(var(--nav-width) + 156px)
+    }
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 156px)
+    }
+ 
+    
+}
+
+
+
+
+
+
+
+
+.loke{
+      color: rgb(228, 0, 0);
+      margin-top: 400px;
+      margin-left: 150px;
+      
+      font-size: 100px;
+      font-weight: bolder;
+    }
+    .loke2{
+      color: rgb(255, 255, 255);
+     
+      margin-left: 300px;
+      font-size: 45px;
+      font-weight: lighter;
+    }
+    .loke3{
+        
+      color: rgb(228, 0, 0);
+      margin-top: 20px;
+      
+      
+      font-size: 70px;
+      font-weight: bolder;
+    }
+
+
+
+
+
+
+
+
+
+    * {
+        margin:0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+       
+    }
+    body{
+      background-color: rgb(255, 255, 255);
+    }
+.navbar{
+        position: fixed;
+        padding: 30px;
+        
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        z-index: var(--z-fixed);
+    }
+
+    .navbar a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: larger;
+        align-items: center;
+
+    }
+   
+   
+  
+   
+    .navbar .nav-links ul{
+        display: flex;
+    }
+    .navbar .nav-links ul li{
+        margin: 0 25px;
+    }
+
+
+    
+    .navbar .nav-links ul li.active a{
+        color:rgb(0, 0, 0); 
+        font-weight: 500;
+    }
+    .navbar .menu-hamburger{
+
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        width: 25px;
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+   
+    @media screen and (max-width:2500px) {
+    .navbar{
+        padding: 0;
+        z-index: 120;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+    
+    .navbar .menu-hamburger{
+        display: block;
+        
+    }
+    .nav-links {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(214, 214, 214, 0.347);
+        backdrop-filter:blur(8px) ;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -120%;
+        transition: all 0.3s ease;
+        
+    } 
+    .nav-links.mobile-menu{
+    margin-left: 0;
+}
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 25px 0; 
+        font-size: 1,2em;
+    }
+}
+#lafoto{
+    margin: 30px 30px 30px ;
+
+}
+
+#losco{
+   background-color: #e0dedeb5;
+   border: none;
+   box-shadow: #00000029;
+}
+
+   
+
+
+
+
+
+#frase {
+                background: #e6edd0 url("img/1maki.jpg") center center no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+                font-family: 'Oswald', sans-serif;
+                outline: none;
+} 
+    
+
+
+h5{
+    font-family: 'Oswald', sans-serif;
+   
+    font-size: 30px;
+    font-weight: 700;
+}
+
+small{
+    text-align: center;
+    position: relative;
+    display: inline;
+    color: #ff0000;
+}
+    
+
+
+
+
+
+
+
+
+
+
+.moving-text-container {
+  width: 100%;
+  overflow: hidden; 
+  white-space: nowrap; 
+}
+
+.moving-text {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  margin-right: 30px; 
+  animation: moveText 10s linear infinite; 
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+.footer{
+background-color: #000000;
+}
+.fut{
+    padding: 10px;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header_toggle"><i class='bx bxs-chevron-left-circle' id="header-toggle"></i> </div>
+        
+        </header>
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div> <a href="index.html" class="nav_logo"> <img src="img/logito2.png" class="nav_iconlog" alt="Bienvenido a la RapChile"> <span class="nav_logo-name">RAPCHILE</span> </a>
+                    <div class="nav_list"> <a href="#" class="nav_link active"> <img src="img/1990.png" class="nav_icon" alt=""> <span class="nav_name">Los 90's</span> </a> <a href="#" class="nav_link"> <img src="img/2000.png" class="nav_icon" alt=""> <span class="nav_name">Los 2000</span> </a> <a href="#" class="nav_link"> <img src="img/2010.png" class="nav_icon" alt=""> <span class="nav_name">2010</span> </a> <a href="#" class="nav_link"> <img src="img/2020.png" class="nav_icon" alt=""> <span class="nav_name">Actual</span> </a>  </div>
+                
+            </nav>
+        </div>
+
+        <nav class="navbar ">
+            <a href="#" class="logo"><img class="logu" src="" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="index.html">Principal</a></li>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Info</a></li>
+                    
+        
+                </ul>
+            </div>
+            <img src="img/menu-btn.png" alt="menu" class="menu-hamburger">
+        
+        </nav>
+
+
+
+        <!--Container Main start-->
+       
+
+
+
+        <section class="py-5 row-cols-md-3 " id="frase">
+            <div class="container">
+                <div class="row">
+                    <div class="col py-5">
+                      <h1 class="loke" >MAKIZA</h1>
+                      
+                      <h2 class="loke2">1997</h2>
+                      
+
+
+
+
+                      
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-8 mx-auto text-danger "> 
+                <h5 class="text-center">Un poco de historia...</h5>
+                <p>Makiza es un grupo de hip-hop chileno que se formó en 1997. En su primer periodo (1997-2000), estaban compuestos por Anita Tijoux, Seo2, Squat y Cenzi. Lanzaron su primer álbum, "Vida salvaje", de forma independiente en 1998 y luego firmaron con Sony Music en 1999 para lanzar su segundo disco, "Aerolíneas". Sus letras controversiales abordaban temas tabú y criticaban la dictadura militar de Pinochet.
+
+                    Entre 2000 y 2004, el grupo se separó. Anita Tijoux se fue a Francia y tuvo éxito en la escena underground, mientras que los otros miembros formaron Némesis y lanzaron dos discos.
+                    
+                    En 2004, Anita, Seo2 y Cenzi se reunieron para grabar dos temas y realizar un concierto promocional. Luego, Cenzi dejó el grupo y se unieron nuevos miembros. En octubre de 2005, lanzaron su nuevo álbum, "Casino Royale", con un sonido más maduro. En 2006, Seo2 dejó el grupo por razones personales.
+                    
+                    En resumen, Makiza es un grupo de hip-hop chileno que se separó en 2000 pero se reunieron en 2004 y continuaron lanzando música hasta 2006.</p>
+                </div>
+                </div>
+              </div>
+        </section>
+
+       
+          <div class="moving-text-container loke3">
+            <span class="moving-text">HIP HOP - POLITICAL RAP -TRIP HOP - R&B - CONSCIOUS RAP</span>
+            <span class="moving-text">HIP HOP - POLITICAL RAP -TRIP HOP - R&B - CONSCIOUS RAP</span>
+            <span class="moving-text">HIP HOP - POLITICAL RAP -TRIP HOP - R&B - CONSCIOUS RAP</span>
+          </div>
+
+ 
+        <div class="container-fluid"></div>
+        <div class="text-center" id="sol"> 
+           
+                <img class="col-7 img-responsive" src="img/makidoc.jpg" class="rounded" alt="...">
+              
+            </div>
+
+               
+
+            <section class="my-5">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-8 mx-auto text-danger "> 
+                        <h5 class="mb-1 text-center">Documental "Hijos de la rosa de los vientos"</h5>
+                        <p class="text-center">por Redbull</p>
+                        <p>Después de la vuelta a la democracia en Chile, cuatro hijos de exiliados regresaron al país y, unidos por su pasión por el hip hop y su deseo de hacerse oír, crearon Makiza, uno de los proyectos más importantes en la historia musical de Chile. Su música fusionó el rap y el hip hop con letras críticas sobre la realidad social y política de ese momento. Makiza se convirtió en un referente en la escena musical chilena, dejando un legado como pioneros del hip hop y luchadores por la libertad de expresión y la justicia social.</p>
+                        <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-outline-dark ">Ver en Youtube</button>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+            </section>
+
+        </div>
+
+        <section>
+            <h2 class="text-center text-danger py-6 mt-5"><i></i>INTEGRANTES</h2>
+            <div class="container py-3">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-md-9 col-lg-7 col-xl-5">
+                  <div class="card-body p-4">
+                    <div class="d-flex text-black">
+                      <div class="flex-shrink-0">
+                        <img src="img/anita.jpg" alt="Anita" style="width: 160px; border-radius: 100px;">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <h5 class="mb-1 ">Ana Tijoux</h5>
+                        <p>Vocalista</p>
+                        <p class="mb-1 pb-1 text-danger">Cantante, compositora y activista chilena. Nació el 12 de junio de 1977 en Lille, Francia, aunque se crió en Chile. Es una destacada figura en la escena musical latinoamericana, especialmente en el género del hip-hop.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+             
+           
+          
+              <div class="row d-flex justify-content-center align-items-center h-40">
+                <div class="col col-md-9 col-lg-7 col-xl-5">
+                  <div class="card-body p-4">
+                    <div class="d-flex text-black">
+                      <div class="flex-grow-1 ms-3">
+                        <h5 class="mb-1">Seo 2</h5>
+                        <p >Vocalista</p>
+                        <p class="mb-1 pb-1 text-danger ">Empezó en el mundo del hip-hip a finales de los años 80, en Suiza, posteriormente se vino a Chile, donde colaboró en la banda CFC para luego unirse a Makiza</p>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <img src="img/maxmak.jpg" alt="Seo2" style="width: 160px; border-radius: 100px;">
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-md-9 col-lg-7 col-xl-5">
+                  <div class="card-body p-4">
+                    <div class="d-flex text-black">
+                      <div class="flex-shrink-0">
+                        <img src="img/soniacido.jpg" alt="Sonido ácido" style="width: 160px; border-radius: 100px;">
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <h5 class="mb-1 ">Sonido ácido</h5>
+                        <p>Vocalista</p>
+                        <p class="mb-1 pb-1 text-danger">Rapero y músico chileno que comenzó su carrera en el año 2000 como parte del grupo Raíces Subterráneas. En 2003 lanzó su primer trabajo en solitario titulado "Sintoniza el dial", el cual le dio gran popularidad.
+
+                            En 2005 se unió al grupo Makiza y participó en la grabación del álbum "Casino Royale". Su talento y estilo único contribuyeron al éxito del grupo.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+ 
+
+
+
+            
+            </div>
+ </div>
+          </section>
+
+            <!-- Cosos -->
+            
+                        
+                    
+            <section class="" id="losTrabajos">
+                
+                <div class="container py-5"><h1 class="text-center mb-1">Discografía</h1>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2 my-5  " id="trabajos"></div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+        <!--Container Main end-->
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+            <h2 class="footer-heading mt-5"><a href="#" class="logo">RAP CHILE</a></h2>
+            <p class="menu">
+            <a class="fut" href="index.html">Principal</a>
+            <a class="fut" href="#">Subir</a>
+            <a class="fut" href="#">Sobre mi</a>
+            </p>
+            <ul class="ftco-footer-social p-0">
+             
+            </ul>
+            </div>
+            </div>
+            <div class="row mt-5">
+            <div class="col-md-12 text-center">
+            <p class="copyright">
+            Copyright &copy; Katherine Burgos 2023 <i class="ion-ios-heart" aria-hidden="true"></i> 
+            </p>
+            </div>
+            </div>
+            </div>
+            </footer>
+
+
+
+        <script>
+            async function portfolio() {
+                const consulta = await fetch("https://raw.githubusercontent.com/katherineburgosa/rap-chileno/main/lainfodis.json");
+                const data = await consulta.json();
+                var donde = document.querySelector("#trabajos");
+                data.forEach(function (t, i) {
+                    donde.innerHTML += '<article class="col"><div id="losco" class="card h-100 shadow-sm  "><img id="lafoto" src="' + t.foto + '" class=""><div class="card-body"><h3 class="fs-2"><p class="text-danger text-center p-0 m-0">' + t.nombre + "</p></h3><p class='text-center' >" + t.descripcion + "</p ><small class='text-center' >" + t.año + "</small></div></div></article>";
+                });
+            }
+            portfolio().catch((error) => console.error(error));
+            
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+   
+   const showNavbar = (toggleId, navId, bodyId, headerId) =>{
+   const toggle = document.getElementById(toggleId),
+   nav = document.getElementById(navId),
+   bodypd = document.getElementById(bodyId),
+   headerpd = document.getElementById(headerId)
+   
+   // Validate that all variables exist
+   if(toggle && nav && bodypd && headerpd){
+   toggle.addEventListener('click', ()=>{
+   // show navbar
+   nav.classList.toggle('show')
+   // change icon
+   toggle.classList.toggle('bx-x')
+   // add padding to body
+   bodypd.classList.toggle('body-pd')
+   // add padding to header
+   headerpd.classList.toggle('body-pd')
+   })
+   }
+   }
+   
+   showNavbar('header-toggle','nav-bar','body-pd','header')
+   
+   /*===== LINK ACTIVE =====*/
+   const linkColor = document.querySelectorAll('.nav_link')
+   
+   function colorLink(){
+   if(linkColor){
+   linkColor.forEach(l=> l.classList.remove('active'))
+   this.classList.add('active')
+   }
+   }
+   linkColor.forEach(l=> l.addEventListener('click', colorLink))
+   
+    // Your code to run since DOM is loaded and ready
+   });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+
+
+
+        <script>
+      const menuHamburger = document.querySelector(".menu-hamburger")
+      const navLinks = document.querySelector(".nav-links")
+    
+      menuHamburger.addEventListener('click',()=>{
+      navLinks.classList.toggle('mobile-menu')
+      })
+    </script>
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+  function moveText() {
+    $('#moving-text').animate({left: '100%'}, 5000, 'linear', function() {
+      $(this).css('left', '0');
+      moveText();
+    });
+  }
+
+  moveText();
+});
+</script>
+
+
+
+
+
+</body>
+</html>
