@@ -1,91 +1,90 @@
 [{
 		"nombre": "Vida salvaje",
-		"descripcion": "Independiente",
+	
 		"año": "1998",
 		"foto": "diskma0.jpg"
 		
 	},
 	{
 		"nombre": " Aerolíneas Makiza",
-		"descripcion": "Sony Music",
+	
 		"año": "2004",
 		"foto": "diskma.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
+		
 		"año": "2005",
 		"foto": "diskma2.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
+		
 		"año": "2005",
-		"foto": "diskma2.jpg"
+		"foto": "diskma3.jpg"
 	},
 	{
-		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
-		"año": "2005",
-		"foto": "diskma2.jpg"
+		"nombre": " Ser Humano!!",
+		
+		"año": "1997",
+		"foto": "https://i.discogs.com/_FwodHD5rzKnlqZ8BFbYesnWovSElrLmsFul0V2IE-Q/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNTg5/MzItMTY4MzI2ODEx/NS01NDg1LmpwZWc.jpeg"
+	},
+	{
+		"nombre": " Decision",
+		
+		"año": "1999",
+		"foto": "https://i.discogs.com/d-wlzhPnEmVFDCaJ0m1QpFdjTF5vJ2c9oNCQmF30XEo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Mzc5/MjctMTM5ODYyNDI2/OS0zMzIyLmpwZWc.jpeg"
+	},
+	{
+		"nombre": " Retorno de Misericordia",
+		
+		"año": "2001",
+		"foto": "https://lastfm.freetls.fastly.net/i/u/500x500/76775de2b8744dc6a8de1bbb5605e31c.jpg"
+	},
+	{
+		"nombre": "Impacto Entero",
+		
+		"año": "2004",
+		"foto": "https://lastfm.freetls.fastly.net/i/u/500x500/cf351e46d2834deebacc10a8814d7bb9.jpg"
 	},
 	{
 		"nombre": " Casino Royale",
-		"descripcion": "La Oreja",
+	
 		"año": "2005",
 		"foto": "diskma3.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
+		
 		"año": "2005",
 		"foto": "diskma2.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
+		
 		"año": "2005",
 		"foto": "diskma2.jpg"
 	},
 	{
 		"nombre": " Casino Royale",
-		"descripcion": "La Oreja",
+	
 		"año": "2005",
 		"foto": "diskma3.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
 		"año": "2005",
 		"foto": "diskma2.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
+		
 		"año": "2005",
 		"foto": "diskma2.jpg"
 	},
 	{
 		"nombre": " Casino Royale",
-		"descripcion": "La Oreja",
-		"año": "2005",
-		"foto": "diskma3.jpg"
-	},
-	{
-		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
-		"año": "2005",
-		"foto": "diskma2.jpg"
-	},
-	{
-		"nombre": " Vida salvaje",
-		"descripcion": "Aguasonica Producciones",
-		"año": "2005",
-		"foto": "diskma2.jpg"
-	},
-	{
-		"nombre": " Casino Royale",
-		"descripcion": "La Oreja",
+
 		"año": "2005",
 		"foto": "diskma3.jpg"
 	}
