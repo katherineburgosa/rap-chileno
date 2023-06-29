@@ -1,29 +1,5 @@
 [{
-		"nombre": "Vida salvaje",
 	
-		"año": "1998",
-		"foto": "diskma0.jpg"
-		
-	},
-	{
-		"nombre": " Aerolíneas Makiza",
-	
-		"año": "2004",
-		"foto": "diskma.jpg"
-	},
-	{
-		"nombre": " Vida salvaje",
-		
-		"año": "2005",
-		"foto": "diskma2.jpg"
-	},
-	{
-		"nombre": " Vida salvaje",
-		
-		"año": "2005",
-		"foto": "diskma3.jpg"
-	},
-	{
 		"nombre": " Ser Humano!!",
 		
 		"año": "1997",
@@ -48,10 +24,10 @@
 		"foto": "https://lastfm.freetls.fastly.net/i/u/500x500/cf351e46d2834deebacc10a8814d7bb9.jpg"
 	},
 	{
-		"nombre": " Casino Royale",
+		"nombre": " Pozzeidos por la ilusión",
 	
-		"año": "2005",
-		"foto": "diskma3.jpg"
+		"año": "1993",
+		"foto": "https://www.musicapopular.cl/wp-content/uploads/2015/08/la-pozze-latina-693-pozzeidos-por-la-ilusion_chica.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
@@ -60,21 +36,46 @@
 		"foto": "diskma2.jpg"
 	},
 	{
-		"nombre": " Vida salvaje",
+		"nombre": "Una nueva rewligión ",
 		
-		"año": "2005",
-		"foto": "diskma2.jpg"
+		"año": "1996",
+		"foto": "https://cdns-images.dzcdn.net/images/cover/74f68583a5f499ec43ffd21311cb203b/264x264.jpg"
 	},
 	{
-		"nombre": " Casino Royale",
+		"nombre": " Desde el mundo de los espejos",
 	
-		"año": "2005",
-		"foto": "diskma3.jpg"
+		"año": "1999",
+		"foto": "https://i.scdn.co/image/ab67616d0000b2731829d8f59604a2bd0b4ee53f"
 	},
 	{
-		"nombre": " Vida salvaje",
-		"año": "2005",
-		"foto": "diskma2.jpg"
+	"nombre": "Vida salvaje",
+	
+	"año": "1998",
+	"foto": "diskma0.jpg"
+
+	},
+	{
+	"nombre": " Aerolíneas Makiza",
+
+	"año": "2004",
+	"foto": "diskma.jpg"
+	},
+	{
+	"nombre": " Vida salvaje",
+
+	"año": "2005",
+	"foto": "diskma2.jpg"
+	},
+	{
+	"nombre": " Vida salvaje",
+
+	"año": "2005",
+	"foto": "diskma3.jpg"
+	},
+	{
+		"nombre": " Justicia Divina",
+		"año": "2001",
+		"foto": "https://m.media-amazon.com/images/I/61L+2MEtByL._UXNaN_FMjpg_QL85_.jpg"
 	},
 	{
 		"nombre": " Vida salvaje",
