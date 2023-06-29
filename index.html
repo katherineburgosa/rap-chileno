@@ -7,6 +7,8 @@
     <link rel="icon" type="image/png" href="img/logito2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
 
 
 <!-- Primary Meta Tags -->
@@ -31,115 +33,10 @@
 
 
   <style>
-    * {
-        margin:0;
-        padding: 0;
-        text-decoration: none;
-        list-style: none;
-       
-    }
-    body{
-      background-color: rgb(255, 255, 255);
-    }
-    header{
-        height: 100vh;
-        width: 100vw;
-        position: relative; 
-      z-index: 1;
-        
-    }
-   
-    .navbar{
-        position: fixed;
-        top: 0; 
-        padding: 10px;
-        margin-top: 10px;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        box-sizing: border-box;
-        align-items: center;
-        z-index: 2;
-    }
 
-    .navbar a{
-        color: rgb(255, 139, 139);
-        text-decoration: none;
-        
-        align-items: center;
 
-    }
-   
-    .navbar .logo{
-        font-size: 2rem;
-        font-weight: bold;
-        width: 120px;
 
-    }
-  
-   
-    .navbar .nav-links ul{
-        display: flex;
-    }
-    .navbar .nav-links ul li{
-        margin: 0 25px;
-    }
-    .navbar .nav-links ul li.active a{
-        color:red; 
-        font-weight: 600;
-    }
-    .navbar .menu-hamburger{
-        display: none;
-        position: absolute;
-        top: 50px;
-        right: 50px;
-        width: 35px;
-    }
-    .mobile-menu{
-        margin-left: 0;
-    }
-   
-    @media screen and (max-width:900px) {
-    .navbar{
-        padding: 0;
-    }
-    .navbar .logo{
-        position: absolute;
-        top: 40px;
-        left: 30px;
-    }
-    
-    .navbar .menu-hamburger{
-        display: block;
-    }
-    .nav-links {
-        top: 0;
-        left: 0;
-        position: absolute;
-        background-color: rgba(214, 214, 214, 0.253);
-        backdrop-filter:blur(5px) ;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -100%;
-        transition: all 0.3s ease;
-        
-    } 
-    .nav-links.mobile-menu{
-    margin-left: 0;
-}
-    .nav-links ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .navbar .nav-links ul li{
-        margin: 25px 0; 
-        font-size: 1,2rem;
-    }
-}
+
 .carousel-item {
 font-family: 'Oswald', sans-serif;
 font-size: larger;
@@ -152,17 +49,38 @@ background: no-repeat center center scroll;
 background-size: cover;
 }
 h5{
-    font-size: 72px;
-    color: orangered;
-   }
+font-size: 72px;
+color: orangered;
+}
 #logito{
-  margin-left: 15px;
-  width: 80px;
+
+margin: 20px 20px 20px;
+
+width: 80px;
 }
 
+.footer{
+    background-color: #bbbbbb;
+    text-align: center;
+    }
+    .social-icons li a{
+      text-decoration: none;
+      color: orangered;
+    }
+    .social-icons li a:hover{
+      text-decoration: none;
+      color: bisque;
+    }
 
 
-   
+
+
+
+
+
+
+
+
 
 
 
@@ -239,14 +157,6 @@ h5{
 
 
 
-.footer{
-background-color: #000000;
-}
-.fut{
-    padding: 10px;
-    text-decoration: none;
-    color: orangered;
-}
 a.logo{
     text-decoration: none;
     color: orangered; 
@@ -261,8 +171,8 @@ a.logo{
         <div class="nav-links">
             <ul>
                 <li class="active"><a href="index.html">Principal</a></li>
-                <li><a href="#">Tags</a></li>
-                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Quien soy</a></li>
+                
                 
 
             </ul>
@@ -284,21 +194,21 @@ a.logo{
               <div class="carousel-caption">
                 <h5>TIRO DE GRACIA</h5>
                 <p>La casa parlante - Zaturno - Lenwa dura (2020) </p>
-                <button type="button" class="btn btn-outline-light">Ver en Youtube</button>
+                <button type="button" class="btn btn-outline-light"><a href="https://www.youtube.com/watch?v=Phgov-UiDcc">Ver en Youtube</a></button>
               </div>
             </div>
             <div class="carousel-item" style="background-image: url(img/rap.jpg)" alt="imagen de video del rap chileno en valparaiso 2012">
               <div class="carousel-caption">
                 <h5>Rap Chileno Valparaíso </h5>
                 <p>Video Oficial producido por ZKT1 Audiovisual (2012) </p>
-                <button type="button" class="btn btn-outline-light">Ver en Youtube</button>
+                <button type="button" class="btn btn-outline-light"><a href="https://www.youtube.com/watch?v=cXGwReDzLKI&ab_channel=Zkt1Audiovisual">Ver en Youtube</a></button>
               </div>
             </div>
             <div class="carousel-item" style="background-image: url(img/1viverap.jpg)" alt="imagen de vive rap, festival de rap en chile año 2023">
               <div class="carousel-caption">
                 <h5>VIVERAP CHILE 2023</h5>
                 <p>ChysteMC - Ana Tijoux - Otros</p>
-                <button type="button" class="btn btn-outline-light">Conoce más</button>
+                <button type="button" class="btn btn-outline-light"><a href="https://los40.cl/2023/vive-rap-2023-conoce-mas-sobre-chystemc-156630.html">Conocer más</a></button>
                 
               </div>
             </div>
@@ -338,127 +248,31 @@ a.logo{
 
 
 
+            
+            
+           
+            
+           
+             
+                  
+           
+            
+               
+              <section class="border-top border-bottom" id="laZona">
+                     <h5 class="text-center">Artistas</h5>
+                  <div class="container my-5 py-4" id="zona">
+                      <div class="row">
+                        <div class="col-md-4 mb-4">
+                       
+                        </div>
+                      </div>
+                    </div>
+          </section>
+            
+        
+                 
 
-
-              <h5 class="text-center">CATEGORIAS</h5>
-
-<div class="container my-5">
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="page-3.html">
-          <img src="img/tiro.jpg" alt=" imagen tiro de gracia">
-        </a>
-        <div class="description">
-          <h3>Tiro de Gracia</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="#">
-          <img src="img/pozze.jpg" alt=" imagen de la pozze latina">
-        </a>
-        <div class="description">
-          <h3>La pozze latina</h3>
-        </div>
-      </div>
-    </div>
-    
-
-
-
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="page.html">
-          <img src="img/makiz.jpg" alt=" imagen de makiza">
-        </a>
-        <div class="description">
-          <h3>Makiza</h3>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="#">
-          <img src="img/1maki.jpg" alt=" imagen de kiruza">
-        </a>
-        <div class="description">
-          <h3>De Kiruza</h3>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-<h5 class="text-center">CATEGORIAS</h5>
-
-<div class="container my-5">
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="page-2.html">
-          <img src="img/chyste.jpg" alt=" imagen de ChysteMC">
-        </a>
-        <div class="description">
-          <h3>ChysteMc</h3>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="#">
-          <img src="img/movori.jpg" alt=" imagen de movimiento original">
-        </a>
-        <div class="description">
-          <h3>Movimiento original</h3>
-        </div>
-      </div>
-    </div>
-    
-
-
-
-    <div class="col-md-4 mb-4">
-      <div class="ui-card">
-        <a href="indexhoy.html">
-          <img src="img/cid.jpg" alt=" imagen de Cidtronyck">
-        </a>
-        <div class="description">
-          <h3>Cidtronyck</h3>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col-md-4 mb-4">
-        <div class="ui-card">
-          <a href="indexhoy.html">
-            <img src="img/cid.jpg" alt=" imagen de Cidtronyck">
-          </a>
-          <div class="description">
-            <h3>Liricista</h3>
-          </div>
-        </div>
-      </div>
-
-
-  </div>
-</div>
-
+             
 
 
 
@@ -472,8 +286,22 @@ a.logo{
     <a class="fut" href="#">Subir</a>
     <a class="fut" href="#">Sobre mi</a>
     </p>
-    <ul class="ftco-footer-social p-0">
-     
+    <ul class="social-icons">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github " viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        <a href="https://github.com/katherineburgosa">Github</a></li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+        <a href="https://twitter.com/Katheri94758841">Twitter</a></li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+        </svg>
+        katherine2000a@gmail.com</li>
     </ul>
     </div>
     </div>
@@ -491,11 +319,11 @@ a.logo{
 
 
 
-
+<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
       </header>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      
   </body>
   <script>
     const menuHamburger = document.querySelector(".menu-hamburger")
@@ -506,3 +334,9 @@ a.logo{
     })
 </script>
 </html>
+
+
+
+
+
+
